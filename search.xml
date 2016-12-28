@@ -3,8 +3,15 @@
   
     
     <entry>
+      <title><![CDATA[Markdown语法]]></title>
+      <url>%2F2016%2F12%2F28%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
+      <content type="text"><![CDATA[标题 在标题前面加“#”，一级标题加一个“#”，二级标题加两个“#”，一次类推，一共有六级 列表列表分为有序列表和无序列表，有序列表在文字前面加1. 2. 3.即可 有序列表1 有序列表2 有序列表3无序列表即在文字前加’*’或是’-‘即可 无序列表1 无序列表2 无序列表3 引用在要引用的文字前加’&gt;’就行 例如这样]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>%2F2016%2F12%2F26%2Fhello-world%2F</url>
+      <url>%2F2016%2F12%2F28%2Fhello-world%2F</url>
       <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
     </entry>
 
