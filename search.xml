@@ -4,7 +4,7 @@
     
     <entry>
       <title><![CDATA[Markdown语法]]></title>
-      <url>%2F2016%2F12%2F28%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
+      <url>%2F2017%2F01%2F10%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
       <content type="text"><![CDATA[Markdown是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者， 撰稿者广泛使用。Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有 很多人用它写博客，像我现在使用的hexo就是用markdown来写的。 Markdown官方文档Markdown中文版语法，大家可以去看一下官方文档，下面我把自己记录的笔记整理一下。 Markdown语法规则标题标题是每篇文章都需要也是最常用的格式，在 Markdown 中，如果一段文字被定义为标题，只要在这段文字前加 # 号即可。 # 一级标题## 二级标题### 三级标题 以此类推，一共有六级标题 列表列表分为有序列表和无序列表，有序列表在文字前面加1. 2. 3.即可 1 2 3 无序列表即在文字前加*或是-即可 1 2 3 引用在要引用的文字前加&gt;就行 例如这样 图片与链接插入链接与插入图片的语法很像，区别在一个!号 插入图片： ![Alt text](/path/to/img.jpg)，其中方括号里面放的是图片的替代文字，圆括号里放的是图片的地址，可以是相对地址也可以是绝对地址。例如![my blog logo](/images/avatar.jpg) 插入链接： [text](url)例如：[baidu](www.baidu.com)，baidu 粗体与斜体粗体与斜体语法也很简单，用两个*包含文字就是粗体，用一个*包含文字就是斜体例如： 这里是粗体，这里是斜体 表格12345| text-align | text-align | text-align || -----------|:----------:| ----------:|| left | center | right || left | center | right || left | center | right | 出来的效果是这样的： text-align text-align text-align left center right left center right left center right 代码框在代码两端加上三个```12345678910&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;title&gt;hello world&lt;/title&gt;&lt;/head&gt;&lt;body&gt; &lt;div&gt;hello world!&lt;/div&gt;&lt;/body&gt;&lt;/html&gt; 分隔线分隔线只要另起一行，连续输入三个***即可 反斜杠Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号。Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：123456789101112\ 反斜线` 反引号* 星号_ 底线&#123;&#125; 花括号[] 方括号() 括弧# 井字号+ 加号- 减号. 英文句点! 惊叹号]]></content>
     </entry>
 
